@@ -33,7 +33,7 @@ read.bibtex <- function(bibfile){
 #' be able to write bibtex files from a string of DOIs, making it valuable for 
 #' purposes beyond the citation of packages.  
 #' 
-#' @import bibtex pkgmaker
+#' @import bibtex doRNG
 #' @examples
 #'  write.bibtex(c('bibtex', 'knitr', 'knitcitations'), file="example.bib")
 #'  refs <- lapply(c("10.1111/j.1461-0248.2005.00827.x","10.1890/11-0011.1"), ref)
